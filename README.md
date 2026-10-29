@@ -4,11 +4,13 @@ A 2D side-scrolling platformer in plain Java (AWT/Swing, no game library), made 
 object-oriented programming module at CY Tech in spring 2024 as an individual project. You run,
 jump and fight through three levels, deal with three kinds of monsters, pick up items and find
 the key that opens the door to the next level. The engine base (game loop, tile collisions, PNG
-levels, the three enemies, Pixel Frog's pirate sprites) follows Kaarin Gaming's Java 2D
-platformer tutorial; I added the inventory and the five items, the NPC with its own inventory
-and the steal mechanic, the key-and-door exit, the kill counter and score, the god-mode option,
-the music and the AZERTY key mapping. The game guide I handed in with the project (French) is in
-[docs/Guide_de_Jeu.pdf](docs/Guide_de_Jeu.pdf).
+levels, the three enemies, Pixel Frog's pirate sprites) comes from
+[Kaarin Gaming](https://www.youtube.com/@KaarinGaming)'s
+[Java 2D platformer tutorial series](https://www.youtube.com/watch?v=6_N8QZ47toY&list=PL4rzdwizLaxYmltJQRjq18a9gsSyEQQ-0),
+which I followed episode by episode; on top of it I added the inventory and the five items, the
+NPC with its own inventory and the steal mechanic, the key-and-door exit, the kill counter and
+score, the god-mode option, the music and the AZERTY key mapping. The game guide I handed in with
+the project (French) is in [docs/Guide_de_Jeu.pdf](docs/Guide_de_Jeu.pdf).
 
 ![Main menu](docs/screenshots/main-menu.jpg)
 ![Level 1](docs/screenshots/level-1.png)
@@ -88,3 +90,7 @@ from the project root. For a single jar: `jar cfe viking-hunter.jar main.MainCla
 - Enemy sight and attacks are horizontal only, so monsters cannot follow you across platforms.
 - The options screen only has the god-mode checkbox, debug prints are still in the code and
   there are no tests.
+
+## Credits
+
+Engine base, enemies and level format: [Kaarin Gaming](https://www.youtube.com/@KaarinGaming), [Java 2D platformer tutorial](https://www.youtube.com/watch?v=6_N8QZ47toY&list=PL4rzdwizLaxYmltJQRjq18a9gsSyEQQ-0). Pirate sprites: Pixel Frog (free asset pack).
